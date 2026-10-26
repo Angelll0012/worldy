@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordly Dictionary</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Wordly</h1>
+    <p>Discover the meaning of every word</p>
+  </header>
+
+  <main>
+    <form id="search-form">
+      <label for="word-input">Search for a word</label>
+      <div class="search-box">
+        <input
+          type="text"
+          id="word-input"
+          placeholder="Enter a word..."
+          required
+        >
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
+    <p id="status-message" role="status"></p>
+
+    <section id="results"></section>
+
+    <section id="favorites-section">
+      <h2>My Favorite Words</h2>
+      <ul id="favorites-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+        &copy;Worldy Dictionary 2026 by Angel.
+    </p> 
+  </footer>
+</body>
+</html>
